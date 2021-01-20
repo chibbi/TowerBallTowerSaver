@@ -1,0 +1,65 @@
+doctype html
+html
+    include partials/head.pug
+    body
+        div(class='main')
+            div(id='navBar')
+                ul
+                    li
+                        a(class="navBarLink" href="#level10") #{content.level10.name}
+                    li
+                        a(class="navBarLink" href="#level9") #{content.level9.name}
+                    li
+                        a(class="navBarLink" href="#level8") #{content.level8.name}
+                    li
+                        a(class="navBarLink" href="#level7") #{content.level7.name}
+                    li
+                        a(class="navBarLink" href="#level6") #{content.level6.name}
+                    li
+                        a(class="navBarLink" href="#level5") #{content.level5.name}
+                    li
+                        a(class="navBarLink" href="#level4") #{content.level4.name}
+                    li
+                        a(class="navBarLink" href="#level3") #{content.level3.name}
+                    li
+                        a(class="navBarLink" href="#level2") #{content.level2.name}
+                    li
+                        a(class="navBarLink" href="#level1") #{content.level1.name}
+            div(id="mainContent")
+                div(id="levelList")
+                    div(class="singleLevel")
+                        h1(id="level1") #{content.level1.name}
+                        div(class="levelContent")
+                            button(id="place1-1",style="width: 50px;height: 50px;border-radius: 50%;background-color: lightgrey;position: absolute;margin: 570px -67px;")
+                            button(id="place1-2",style="width: 50px;height: 50px;border-radius: 50%;background-color: lightgrey;position: absolute;margin: 540px -25px;")
+                            button(id="place1-3",style="width: 50px;height: 50px;border-radius: 50%;background-color: lightgrey;position: absolute;margin: 570px 17px;")
+                    div(class="singleLevel")
+                        h1(id="level2") #{content.level2.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level3") #{content.level3.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level4") #{content.level4.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level5") #{content.level5.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level6") #{content.level6.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level7") #{content.level7.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level8") #{content.level8.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level9") #{content.level9.name}
+                        div(class="levelContent")
+                    div(class="singleLevel")
+                        h1(id="level10") #{content.level10.name}
+                        div(class="levelContent")
+                    script addButtons();
+        include partials/foot.pug
+        script consentCookies();
