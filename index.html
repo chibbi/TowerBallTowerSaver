@@ -3,7 +3,7 @@
 
 <head>
     <title>TowerBall Tower Saver</title>
-    <meta name="description" content="Official Website of Raninninn">
+    <meta name="description" content="Save your Tower positions in the Game Tower Ball">
     <meta name="author" content="chibbi">
     <link rel="stylesheet" href="css/default.css">
 </head>
@@ -46,34 +46,8 @@ function consentCookies() {
             console.log("clicked Consenting");
             document.querySelector('.cookieconsent').style.display = 'none';
             setCookie("cookieconsent", "true", 7);
-            whichLanguage();
         };
     } else {
-        whichLanguage();
-    }
-}
-
-function whichLanguage() {
-    if (getCookie('lcl') == "") {
-        document.body.innerHTML += '\
-            <div class="cookieconsent locales">\
-            This site has different Versions for different Languages. Please specify which Language you want to use.\
-            <div id="langList" style="flex-direction: row;">\
-            <button id="deutsch">Deutsch</button>\
-            <button id="english">English</button>\
-            </div>';
-        document.querySelector('.locales #deutsch').onclick = function(e) {
-            e.preventDefault();
-            document.querySelector('.locales').style.display = 'none';
-            setCookie("lcl", "de", 365);
-            location.reload();
-        };
-        document.querySelector('.locales #english').onclick = function(e) {
-            e.preventDefault();
-            document.querySelector('.locales').style.display = 'none';
-            setCookie("lcl", "en", 365);
-            location.reload();
-        };
     }
 }
 
