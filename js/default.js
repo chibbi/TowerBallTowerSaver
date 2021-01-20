@@ -34,35 +34,8 @@ function consentCookies() {
             console.log("clicked Consenting");
             document.querySelector('.cookieconsent').style.display = 'none';
             setCookie("cookieconsent", "true", 7);
-            whichLanguage();
         };
-    } else {
-        whichLanguage();
-    }
-}
-
-function whichLanguage() {
-    if (getCookie('lcl') == "") {
-        document.body.innerHTML += '\
-            <div class="cookieconsent locales">\
-            This site has different Versions for different Languages. Please specify which Language you want to use.\
-            <div id="langList" style="flex-direction: row;">\
-            <button id="deutsch">Deutsch</button>\
-            <button id="english">English</button>\
-            </div>';
-        document.querySelector('.locales #deutsch').onclick = function(e) {
-            e.preventDefault();
-            document.querySelector('.locales').style.display = 'none';
-            setCookie("lcl", "de", 365);
-            location.reload();
-        };
-        document.querySelector('.locales #english').onclick = function(e) {
-            e.preventDefault();
-            document.querySelector('.locales').style.display = 'none';
-            setCookie("lcl", "en", 365);
-            location.reload();
-        };
-    }
+    } else {}
 }
 
 function loadMenu(buttonName) {
@@ -116,11 +89,6 @@ function loadMenu(buttonName) {
     menuButton.innerHTML = "magnet";
     menuButton.id = "magnet";
     menuDiv.appendChild(menuButton);
-    // TODO: open/create a Menu next to the button
-    // TODO: menu has a list where you can select the tower
-    //       menu may consist of more buttons
-    // TODO: update the color of the Button according to
-    //       the color of the selected Tower
     parentDiv.appendChild(menuDiv);
     document.getElementById("gun").onclick = () => {
         endMenu(buttonName, "gun")
