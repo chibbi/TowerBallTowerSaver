@@ -280,10 +280,6 @@ function addButtons() {
     document.getElementById("place3-11").onclick = () => {
         loadMenu("place3-11")
     };
-    endMenu("place3-12", getCookie("place3-12"));
-    document.getElementById("place3-12").onclick = () => {
-        loadMenu("place3-12")
-    };
     endMenu("place4-1", getCookie("place4-1"));
     document.getElementById("place4-1").onclick = () => {
         loadMenu("place4-1")
@@ -324,53 +320,189 @@ function addButtons() {
     document.getElementById("place4-10").onclick = () => {
         loadMenu("place4-10")
     };
-endMenu("place5-1", getCookie("place5-1"));
-document.getElementById("place5-1").onclick = () => {
-loadMenu("place5-1")
-};
-endMenu("place5-2", getCookie("place5-2"));
-document.getElementById("place5-2").onclick = () => {
-loadMenu("place5-2")
-};
-endMenu("place5-3", getCookie("place5-3"));
-document.getElementById("place5-3").onclick = () => {
-loadMenu("place5-3")
-};
-endMenu("place5-4", getCookie("place5-4"));
-document.getElementById("place5-4").onclick = () => {
-loadMenu("place5-4")
-};
-endMenu("place5-5", getCookie("place5-5"));
-document.getElementById("place5-5").onclick = () => {
-loadMenu("place5-5")
-};
-endMenu("place5-6", getCookie("place5-6"));
-document.getElementById("place5-6").onclick = () => {
-loadMenu("place5-6")
-};
-endMenu("place5-7", getCookie("place5-7"));
-document.getElementById("place5-7").onclick = () => {
-loadMenu("place5-7")
-};
-endMenu("place5-8", getCookie("place5-8"));
-document.getElementById("place5-8").onclick = () => {
-loadMenu("place5-8")
-};
-endMenu("place5-9", getCookie("place5-9"));
-document.getElementById("place5-9").onclick = () => {
-loadMenu("place5-9")
-};
-endMenu("place5-10", getCookie("place5-10"));
-document.getElementById("place5-10").onclick = () => {
-loadMenu("place5-10")
-};
-endMenu("place5-11", getCookie("place5-11"));
-document.getElementById("place5-11").onclick = () => {
-loadMenu("place5-11")
-};
-endMenu("place5-12", getCookie("place5-12"));
-document.getElementById("place5-12").onclick = () => {
-loadMenu("place5-12")
-};
+    endMenu("place5-1", getCookie("place5-1"));
+    document.getElementById("place5-1").onclick = () => {
+        loadMenu("place5-1")
+    };
+    endMenu("place5-2", getCookie("place5-2"));
+    document.getElementById("place5-2").onclick = () => {
+        loadMenu("place5-2")
+    };
+    endMenu("place5-3", getCookie("place5-3"));
+    document.getElementById("place5-3").onclick = () => {
+        loadMenu("place5-3")
+    };
+    endMenu("place5-4", getCookie("place5-4"));
+    document.getElementById("place5-4").onclick = () => {
+        loadMenu("place5-4")
+    };
+    endMenu("place5-5", getCookie("place5-5"));
+    document.getElementById("place5-5").onclick = () => {
+        loadMenu("place5-5")
+    };
+    endMenu("place5-6", getCookie("place5-6"));
+    document.getElementById("place5-6").onclick = () => {
+        loadMenu("place5-6")
+    };
+    endMenu("place5-7", getCookie("place5-7"));
+    document.getElementById("place5-7").onclick = () => {
+        loadMenu("place5-7")
+    };
+    endMenu("place5-8", getCookie("place5-8"));
+    document.getElementById("place5-8").onclick = () => {
+        loadMenu("place5-8")
+    };
+    endMenu("place5-9", getCookie("place5-9"));
+    document.getElementById("place5-9").onclick = () => {
+        loadMenu("place5-9")
+    };
+    endMenu("place5-10", getCookie("place5-10"));
+    document.getElementById("place5-10").onclick = () => {
+        loadMenu("place5-10")
+    };
+    endMenu("place5-11", getCookie("place5-11"));
+    document.getElementById("place5-11").onclick = () => {
+        loadMenu("place5-11")
+    };
+    endMenu("place6-1", getCookie("place6-1"));
+    document.getElementById("place6-1").onclick = () => {
+        loadMenu("place6-1")
+    };
+    endMenu("place6-2", getCookie("place6-2"));
+    document.getElementById("place6-2").onclick = () => {
+        loadMenu("place6-2")
+    };
+    endMenu("place6-3", getCookie("place6-3"));
+    document.getElementById("place6-3").onclick = () => {
+        loadMenu("place6-3")
+    };
+    endMenu("place6-4", getCookie("place6-4"));
+    document.getElementById("place6-4").onclick = () => {
+        loadMenu("place6-4")
+    };
+    endMenu("place6-5", getCookie("place6-5"));
+    document.getElementById("place6-5").onclick = () => {
+        loadMenu("place6-5")
+    };
+    endMenu("place6-6", getCookie("place6-6"));
+    document.getElementById("place6-6").onclick = () => {
+        loadMenu("place6-6")
+    };
+    endMenu("place6-7", getCookie("place6-7"));
+    document.getElementById("place6-7").onclick = () => {
+        loadMenu("place6-7")
+    };
+    endMenu("place6-8", getCookie("place6-8"));
+    document.getElementById("place6-8").onclick = () => {
+        loadMenu("place6-8")
+    };
+    endMenu("place6-9", getCookie("place6-9"));
+    document.getElementById("place6-9").onclick = () => {
+        loadMenu("place6-9")
+    };
+    endMenu("place6-10", getCookie("place6-10"));
+    document.getElementById("place6-10").onclick = () => {
+        loadMenu("place6-10")
+    };
+    endMenu("place7-1", getCookie("place7-1"));
+    document.getElementById("place7-1").onclick = () => {
+        loadMenu("place7-1")
+    };
+    endMenu("place7-2", getCookie("place7-2"));
+    document.getElementById("place7-2").onclick = () => {
+        loadMenu("place7-2")
+    };
+    endMenu("place7-3", getCookie("place7-3"));
+    document.getElementById("place7-3").onclick = () => {
+        loadMenu("place7-3")
+    };
+    endMenu("place7-4", getCookie("place7-4"));
+    document.getElementById("place7-4").onclick = () => {
+        loadMenu("place7-4")
+    };
+    endMenu("place7-5", getCookie("place7-5"));
+    document.getElementById("place7-5").onclick = () => {
+        loadMenu("place7-5")
+    };
+    endMenu("place7-6", getCookie("place7-6"));
+    document.getElementById("place7-6").onclick = () => {
+        loadMenu("place7-6")
+    };
+    endMenu("place7-7", getCookie("place7-7"));
+    document.getElementById("place7-7").onclick = () => {
+        loadMenu("place7-7")
+    };
+    endMenu("place7-8", getCookie("place7-8"));
+    document.getElementById("place7-8").onclick = () => {
+        loadMenu("place7-8")
+    };
+    endMenu("place7-9", getCookie("place7-9"));
+    document.getElementById("place7-9").onclick = () => {
+        loadMenu("place7-9")
+    };
+    endMenu("place7-10", getCookie("place7-10"));
+    document.getElementById("place7-10").onclick = () => {
+        loadMenu("place7-10")
+    };
+    endMenu("place7-11", getCookie("place7-11"));
+    document.getElementById("place7-11").onclick = () => {
+        loadMenu("place7-11")
+    };
+    endMenu("place7-12", getCookie("place7-12"));
+    document.getElementById("place7-12").onclick = () => {
+        loadMenu("place7-12")
+    };
+    endMenu("place8-1", getCookie("place8-1"));
+    document.getElementById("place8-1").onclick = () => {
+        loadMenu("place8-1")
+    };
+    endMenu("place8-2", getCookie("place8-2"));
+    document.getElementById("place8-2").onclick = () => {
+        loadMenu("place8-2")
+    };
+    endMenu("place8-3", getCookie("place8-3"));
+    document.getElementById("place8-3").onclick = () => {
+        loadMenu("place8-3")
+    };
+    endMenu("place8-4", getCookie("place8-4"));
+    document.getElementById("place8-4").onclick = () => {
+        loadMenu("place8-4")
+    };
+    endMenu("place8-5", getCookie("place8-5"));
+    document.getElementById("place8-5").onclick = () => {
+        loadMenu("place8-5")
+    };
+    endMenu("place8-6", getCookie("place8-6"));
+    document.getElementById("place8-6").onclick = () => {
+        loadMenu("place8-6")
+    };
+    endMenu("place8-7", getCookie("place8-7"));
+    document.getElementById("place8-7").onclick = () => {
+        loadMenu("place8-7")
+    };
+    endMenu("place8-8", getCookie("place8-8"));
+    document.getElementById("place8-8").onclick = () => {
+        loadMenu("place8-8")
+    };
+    endMenu("place8-9", getCookie("place8-9"));
+    document.getElementById("place8-9").onclick = () => {
+        loadMenu("place8-9")
+    };
+    endMenu("place8-10", getCookie("place8-10"));
+    document.getElementById("place8-10").onclick = () => {
+        loadMenu("place8-10")
+    };
+    endMenu("place8-11", getCookie("place8-11"));
+    document.getElementById("place8-11").onclick = () => {
+        loadMenu("place8-11")
+    };
+    endMenu("place8-12", getCookie("place8-12"));
+    document.getElementById("place8-12").onclick = () => {
+        loadMenu("place8-12")
+    };
+    endMenu("place8-13", getCookie("place8-13"));
+    document.getElementById("place8-13").onclick = () => {
+        loadMenu("place8-13")
+    };
 
 }
