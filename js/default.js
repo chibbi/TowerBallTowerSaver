@@ -25,7 +25,7 @@ function consentCookies() {
     if (getCookie('cookieconsent') != "true") {
         document.body.innerHTML += '\
             <div class="cookieconsent">\
-            We use cookies to make this site work and we process personal data for security purposes. \
+            We use cookies to make this site work. \
             If You dont consent, please leave the site without logging in.\
             <button id="coconsent">I Understand</button>\
             </div>';
