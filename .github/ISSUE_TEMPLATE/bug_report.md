@@ -7,23 +7,23 @@ assignees: ''
 
 ---
 
-**where**
+**where**  
 Level: 
 Tower: 
 
-**Expected behavior**
+**Expected behavior**  
 What should happen?
 
-**Actual behavior**
+**Actual behavior**  
 What happens instead?
 
-**Screenshots**
+**Screenshots**  
 If applicable, add screenshots to help explain your problem.
 rarely needed.
 
-**Client information:**
+**Client information:**  
  - OS: [e.g. iOS, Windows, Android 9, Android 6]
  - Browser [e.g. chrome, safari]
 
-**Additional context**
+**Additional context**  
 Add any other context about the problem here.
