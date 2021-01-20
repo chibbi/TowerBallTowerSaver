@@ -324,13 +324,53 @@ function addButtons() {
     document.getElementById("place4-10").onclick = () => {
         loadMenu("place4-10")
     };
-    endMenu("place4-11", getCookie("place4-11"));
-    document.getElementById("place4-11").onclick = () => {
-        loadMenu("place4-11")
-    };
-    endMenu("place4-12", getCookie("place4-12"));
-    document.getElementById("place4-12").onclick = () => {
-        loadMenu("place4-12")
-    };
+endMenu("place5-1", getCookie("place5-1"));
+document.getElementById("place5-1").onclick = () => {
+loadMenu("place5-1")
+};
+endMenu("place5-2", getCookie("place5-2"));
+document.getElementById("place5-2").onclick = () => {
+loadMenu("place5-2")
+};
+endMenu("place5-3", getCookie("place5-3"));
+document.getElementById("place5-3").onclick = () => {
+loadMenu("place5-3")
+};
+endMenu("place5-4", getCookie("place5-4"));
+document.getElementById("place5-4").onclick = () => {
+loadMenu("place5-4")
+};
+endMenu("place5-5", getCookie("place5-5"));
+document.getElementById("place5-5").onclick = () => {
+loadMenu("place5-5")
+};
+endMenu("place5-6", getCookie("place5-6"));
+document.getElementById("place5-6").onclick = () => {
+loadMenu("place5-6")
+};
+endMenu("place5-7", getCookie("place5-7"));
+document.getElementById("place5-7").onclick = () => {
+loadMenu("place5-7")
+};
+endMenu("place5-8", getCookie("place5-8"));
+document.getElementById("place5-8").onclick = () => {
+loadMenu("place5-8")
+};
+endMenu("place5-9", getCookie("place5-9"));
+document.getElementById("place5-9").onclick = () => {
+loadMenu("place5-9")
+};
+endMenu("place5-10", getCookie("place5-10"));
+document.getElementById("place5-10").onclick = () => {
+loadMenu("place5-10")
+};
+endMenu("place5-11", getCookie("place5-11"));
+document.getElementById("place5-11").onclick = () => {
+loadMenu("place5-11")
+};
+endMenu("place5-12", getCookie("place5-12"));
+document.getElementById("place5-12").onclick = () => {
+loadMenu("place5-12")
+};
 
 }
