@@ -26,7 +26,7 @@ function consentCookies() {
         document.body.innerHTML += '\
             <div class="cookieconsent">\
             We use cookies to make this site work. \
-            If You dont consent, please leave the site without logging in.\
+            If You dont consent, please leave the site immediatly.\
             <button id="coconsent">I Understand</button>\
             </div>';
         document.querySelector('.cookieconsent #coconsent').onclick = function(e) {
