@@ -504,5 +504,57 @@ function addButtons() {
     document.getElementById("place8-13").onclick = () => {
         loadMenu("place8-13")
     };
+    endMenu("place9-1", getCookie("place9-1"));
+    document.getElementById("place9-1").onclick = () => {
+        loadMenu("place9-1")
+    };
+    endMenu("place9-2", getCookie("place9-2"));
+    document.getElementById("place9-2").onclick = () => {
+        loadMenu("place9-2")
+    };
+    endMenu("place9-3", getCookie("place9-3"));
+    document.getElementById("place9-3").onclick = () => {
+        loadMenu("place9-3")
+    };
+    endMenu("place9-4", getCookie("place9-4"));
+    document.getElementById("place9-4").onclick = () => {
+        loadMenu("place9-4")
+    };
+    endMenu("place9-5", getCookie("place9-5"));
+    document.getElementById("place9-5").onclick = () => {
+        loadMenu("place9-5")
+    };
+    endMenu("place9-6", getCookie("place9-6"));
+    document.getElementById("place9-6").onclick = () => {
+        loadMenu("place9-6")
+    };
+    endMenu("place9-7", getCookie("place9-7"));
+    document.getElementById("place9-7").onclick = () => {
+        loadMenu("place9-7")
+    };
+    endMenu("place9-8", getCookie("place9-8"));
+    document.getElementById("place9-8").onclick = () => {
+        loadMenu("place9-8")
+    };
+    endMenu("place9-9", getCookie("place9-9"));
+    document.getElementById("place9-9").onclick = () => {
+        loadMenu("place9-9")
+    };
+    endMenu("place9-10", getCookie("place9-10"));
+    document.getElementById("place9-10").onclick = () => {
+        loadMenu("place9-10")
+    };
+    endMenu("place9-11", getCookie("place9-11"));
+    document.getElementById("place9-11").onclick = () => {
+        loadMenu("place9-11")
+    };
+    endMenu("place9-12", getCookie("place9-12"));
+    document.getElementById("place9-12").onclick = () => {
+        loadMenu("place9-12")
+    };
+    endMenu("place9-13", getCookie("place9-13"));
+    document.getElementById("place9-13").onclick = () => {
+        loadMenu("place9-13")
+    };
 
 }
