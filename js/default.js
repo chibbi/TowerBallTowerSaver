@@ -164,7 +164,7 @@ function endMenu(buttonNam, towr) {
             giveColor = "rgb(50,50,220)";
             giveText = "M";
             break;
-        case "clear":
+        default:
             giveColor = "lightgrey";
             giveText = "";
             break;
