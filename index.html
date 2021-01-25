@@ -62,6 +62,7 @@
             parentDiv = document.getElementById(buttonName).parentNode;
             menuDiv = document.createElement('div');
             menuDiv.id = "tempMenu";
+            menuDiv.style.margin = "150px 150px";
             menuDiv.style.zIndex = "50";
             menuDiv.style.margin = realbut.style.margin + "200";
             menuDiv.style.width = "100px";
@@ -71,48 +72,56 @@
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "rgb(150,70,70)";
             menuButton.innerHTML = "gun";
             menuButton.id = "gun";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "rgb(250,50,50)";
             menuButton.innerHTML = "bomb";
             menuButton.id = "bomb";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "yellow";
             menuButton.innerHTML = "electric";
             menuButton.id = "electric";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "rgb(240,100,150)";
             menuButton.innerHTML = "shrink ray";
             menuButton.id = "shrink ray";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "gray";
             menuButton.innerHTML = "saw";
             menuButton.id = "saw";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "green";
             menuButton.innerHTML = "acid";
             menuButton.id = "acid";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "rgb(50,50,220)";
             menuButton.innerHTML = "magnet";
             menuButton.id = "magnet";
             menuDiv.appendChild(menuButton);
             menuButton = document.createElement('button');
             menuButton.style.zIndex = "50";
             menuButton.style.height = "30px";
+            menuButton.style.backgroundColor = "lightgrey";
             menuButton.innerHTML = "clear";
             menuButton.id = "clear";
             menuDiv.appendChild(menuButton);
@@ -569,7 +578,66 @@
             document.getElementById("place9-13").onclick = () => {
                 loadMenu("place9-13")
             };
-
+            endMenu("place10-1", getCookie("place10-1"));
+            document.getElementById("place10-1").onclick = () => {
+                loadMenu("place10-1")
+            };
+            endMenu("place10-2", getCookie("place10-2"));
+            document.getElementById("place10-2").onclick = () => {
+                loadMenu("place10-2")
+            };
+            endMenu("place10-3", getCookie("place10-3"));
+            document.getElementById("place10-3").onclick = () => {
+                loadMenu("place10-3")
+            };
+            endMenu("place10-4", getCookie("place10-4"));
+            document.getElementById("place10-4").onclick = () => {
+                loadMenu("place10-4")
+            };
+            endMenu("place10-5", getCookie("place10-5"));
+            document.getElementById("place10-5").onclick = () => {
+                loadMenu("place10-5")
+            };
+            endMenu("place10-6", getCookie("place10-6"));
+            document.getElementById("place10-6").onclick = () => {
+                loadMenu("place10-6")
+            };
+            endMenu("place10-7", getCookie("place10-7"));
+            document.getElementById("place10-7").onclick = () => {
+                loadMenu("place10-7")
+            };
+            endMenu("place10-8", getCookie("place10-8"));
+            document.getElementById("place10-8").onclick = () => {
+                loadMenu("place10-8")
+            };
+            endMenu("place10-9", getCookie("place10-9"));
+            document.getElementById("place10-9").onclick = () => {
+                loadMenu("place10-9")
+            };
+            endMenu("place10-10", getCookie("place10-10"));
+            document.getElementById("place10-10").onclick = () => {
+                loadMenu("place10-10")
+            };
+            endMenu("place10-11", getCookie("place10-11"));
+            document.getElementById("place10-11").onclick = () => {
+                loadMenu("place10-11")
+            };
+            endMenu("place10-12", getCookie("place10-12"));
+            document.getElementById("place10-12").onclick = () => {
+                loadMenu("place10-12")
+            };
+            endMenu("place10-13", getCookie("place10-13"));
+            document.getElementById("place10-13").onclick = () => {
+                loadMenu("place10-13")
+            };
+            endMenu("place10-14", getCookie("place10-14"));
+            document.getElementById("place10-14").onclick = () => {
+                loadMenu("place10-14")
+            };
+            endMenu("place10-15", getCookie("place10-15"));
+            document.getElementById("place10-15").onclick = () => {
+                loadMenu("place10-15")
+            };
         }
     </script>
     <div class="main">
@@ -916,12 +984,57 @@
                         </button>
                     </div>
                 </div>
-                <!--
                 <div class="singleLevel">
                     <h1 id="level10">level 10</h1>
-                    <div class="levelContent"></div>
+                    <div class="levelContent">
+                        <button id="place10-1" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 585px -25px;">
+                        </button>
+                        <button id="place10-2" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 465px -25px;">
+                        </button>
+                        <button id="place10-3" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 420px 75px;">
+                        </button>
+                        <button id="place10-4" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 420px -125px;">
+                        </button>
+                        <button id="place10-5" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 320px 85px;">
+                        </button>
+                        <button id="place10-6" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 320px -135px;">
+                        </button>
+                        <!-- 9 Stück -->
+                        <button id="place10-7" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 160px 145px;">
+                        </button>
+                        <button id="place10-8" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 160px -195px;">
+                        </button>
+                        <button id="place10-9" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 120px -160px;">
+                        </button>
+                        <button id="place10-10" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 120px 110px;">
+                        </button>
+                        <button id="place10-11" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 90px 65px;">
+                        </button>
+                        <button id="place10-12" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 90px -115px;">
+                        </button>
+                        <button id="place10-13" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 65px 20px;">
+                        </button>
+                        <button id="place10-14" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 65px -70px;">
+                        </button>
+                        <button id="place10-15" style="width: 50px;height: 50px;border-radius: 50%;
+                        background-color: lightgrey;position: absolute;margin: 55px -25px;">
+                        </button>
+                    </div>
                 </div>
-                -->
                 <script>
                     addButtons();
                 </script>
