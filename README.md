@@ -17,3 +17,8 @@ I know that it should (and i think) can be written with less code, but this was 
 
 I left the java file, i used to create the command in javascript (because i didn't wanna copy paste everything)  
 in the directory, if someone is interested in it.  
+
+TODO:
+ - [ ] add a textarea or smth, to export and import other peoples tower placements
+ - [ ] put the tower menu in the middle of the level (or directly right to the button it refers to)
+ - [ ] give all buttons in the tower menu the right color
