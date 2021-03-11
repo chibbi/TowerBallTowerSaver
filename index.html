@@ -47,6 +47,7 @@
                     console.log("clicked Consenting");
                     document.querySelector('.cookieconsent').style.display = 'none';
                     setCookie("cookieconsent", "true", 7);
+                    window.location.reload();
                 };
             } else {}
         }
